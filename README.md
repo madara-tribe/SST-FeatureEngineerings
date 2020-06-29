@@ -1,6 +1,6 @@
 ## SST-FeatureEngineerings
 
-## SST
+## SST(Singular Spectrum Transformation)
 
 ```
 from sst import SingularSpectrumTransformation
@@ -13,10 +13,11 @@ score = SingularSpectrumTransformation(win_length=30, n_components=2, use_lanczo
 plot_data_and_score(d1,score)
 
 ```
+<img src="https://user-images.githubusercontent.com/48679574/85997882-0fdef080-ba45-11ea-8f7c-4aa0fc17c893.png" width="700px">
 
 
 
-## DTW
+## DTW(Dynamic Time Warping)
 
 ```
 from dtaidistance.dtw1 import calc_dtw, plot_path
@@ -42,4 +43,5 @@ d2 = pdTo1dim(d2)
 # dtw
 plot_dtw1(d1, d2)
 ```
+<img src="https://user-images.githubusercontent.com/48679574/85997898-140b0e00-ba45-11ea-9a14-1de2acbc15ff.png" width="700px">
 
